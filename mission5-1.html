@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>mission5-1</title>
+    <link rel="stylesheet" href="mission5-1.css">
+</head>
+<body>
+    <div class="title">電卓</div>
+    <input type="text" id="result" readonly="readonly">
+    <div class="operation">
+        <input type="button" value="1" onclick="edit(this.value)">
+        <input type="button" value="2" onclick="edit(this.value)">
+        <input type="button" value="3" onclick="edit(this.value)">
+        <input type="button" value="+" onclick="edit(this.value)">
+    </div>
+    <div class="operation">
+        <input type="button" value="4" onclick="edit(this.value)">
+        <input type="button" value="5" onclick="edit(this.value)">
+        <input type="button" value="6" onclick="edit(this.value)">
+        <input type="button" value="-" onclick="edit(this.value)">
+    </div>
+    <div class="operation">
+        <input type="button" value="7" onclick="edit(this.value)">
+        <input type="button" value="8" onclick="edit(this.value)">
+        <input type="button" value="9" onclick="edit(this.value)">
+        <input type="button" value="/" onclick="edit(this.value)">
+    </div>
+    <div class="operation">
+        <input type="button" value="0" onclick="edit(this.value)">
+        <input type="button" value="." onclick="edit(this.value)">
+        <input type="button" value="*" onclick="edit(this.value)">
+        <input type="button" value="C" onclick="reset()">
+        <input type="button" value="=" onclick="calc()">
+    </div>
+    <script src="mission5-1.js"></script>
+</body>
+</html>
